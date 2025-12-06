@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .galeri{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            margin: 20px;
+        }
+        .lordy img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .lordy{
+            background: hsl(0, 2%, 59%);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5)
+        }
+    </style>
+</head>
+<body>
+    <div class="galeri">
+        <!-- sa se premye div la -->
+        <div class="lordy">
+            <img src="foto.jpg" alt="Sa se photo 1">
+                <h3>Foto sa se premye a</h3>
+                    <p>Deskripsyon sou imaj saa</p>
+        </div>
+
+
+        <!-- sa se dezyem div la -->
+        <div class="lordy">
+            <img src="lordy.jpg.jpg" alt="Sa se photo 1"> 
+                <h3>Foto sa se dezyem nan</h3>
+                    <p>Deskripsyon sou imaj saa</p>
+        </div>
+
+
+        <!-- sa se twazyem div la -->
+        <div class="lordy">
+            <img src="pic.jpg" alt="Sa se photo 1">
+                <h3>Foto sa se twazyem nan</h3>
+                    <p>Deskripsyon sou imaj saa</p>
+             
+        </div>
+    </div>
+</body>
+</html>
